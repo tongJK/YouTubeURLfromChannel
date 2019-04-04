@@ -40,7 +40,7 @@ def get_video_link(ch_url):
         temp_link = str(video_links[num])
         temp_link = "https://www.youtube.com" + temp_link[8:-3]
 
-        print(color_map[num % 7], num + 1, "Title: " + temp_title, "| link: " + temp_link)
+        print(color_map[num % 8], num + 1, "Title: " + temp_title, "| link: " + temp_link)
 
 
 get_video_link(ch_url)
